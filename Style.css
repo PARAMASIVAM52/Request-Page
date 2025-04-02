@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(235, 244, 244);
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar
+{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: rgb(255, 255, 255);
+    display:flex;
+    padding: 10px;
+    justify-content: space-between  ;
+    width: 100%;
+}
+.logo
+{
+    margin-left: 1px;
+    margin-right: 65%;
+    align-items: center;
+    padding-top: 5px;
+}
+.buttons button
+{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    /* border: none;
+    cursor: pointer; */
+
+}
+.buttons{
+    margin-right: 20px;
+}
+.signin
+{
+    background-color: rgba(0, 0, 255, 0.677);
+    color: white;
+}
+.Submit
+{
+    background-color:rgba(0, 0, 0, 0.299);
+    color: white;
+    border: 2px;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+}
+.Search_Screen
+{
+    background-color: rgba(140, 52, 223, 0.218);
+    width: 100%;
+    height: 150px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+.Search_input
+{
+    size: 15px;
+    border-radius: 2px;
+    border: none;
+    padding: 5px;
+    margin-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 175px;
+    border-color: rgba(52, 16, 86, 0.241);
+}
+.Search_Screen button{
+    font-size: 16px;
+    background-color: transparent;
+    border:none;
+    margin-left: -50px;
+}
+.main_content
+{
+    background-color: transparent;
+    width: 35%;
+    padding-bottom: 100px;
+    margin-left: 30px;
+    height: 130px;
+    margin-right: 10px;
+    text-align: left;
+    margin-top: 55px;
+    display: inline-block;
+
+}
+.main_content a{
+    outline: none;
+    text-decoration: none;
+    
+}
+footer
+{
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 5px;
+
+}
+.footer_data
+{
+    background-color: transparent;
+    width:25%;
+    color: white;
+    padding-bottom: 100px;
+    text-align: left;
+    margin-left: 25px;
+}
+.footer_data p{
+    color: rgba(245, 245, 245, 0.663);
+}
+.copyright
+{
+    background-color: transparent;
+    width:25%;
+    color: white;
+    text-align: left;
+    padding-top: 200px; 
+}
+.main_content img{
+    margin-left: -80px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    margin-bottom: -90px;
+}
+.help
+{
+    background-color: blue;
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin-left: 72%;
+    margin-top: -120px;
+
+}
